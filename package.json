@@ -1,0 +1,37 @@
+{
+  "name": "docpad-plugin-yamljs",
+  "version": "2.0.0",
+  "description": "Adds support for YAML to JSON and JSON to YAML compilation to DocPad",
+  "homepage": "http://docpad.org/plugin/cson",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "yaml",
+    "yamljs",
+    "json"
+  ],
+  "author": "Jeremy Faivre <contact@jeremyfa.com> (http://jeremyfa.com)",
+  "maintainers": [],
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/jeremyfa/docpad-plugin-yamljs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jeremyfa/docpad-plugin-yamljs.git"
+  },
+  "engines": {
+    "node": ">=0.6.0",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "yamljs": "~0.1.4"
+  },
+  "devDependencies": {
+    "coffee-script": "1.4.x"
+  },
+  "main": "./out/yamljs.plugin.js",
+  "scripts": {
+    "test": "node ./test/yamljs.test.js"
+  }
+}
